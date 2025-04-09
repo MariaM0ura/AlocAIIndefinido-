@@ -2,9 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import Layout from '@/components/Layout/Layout';
-import Typography from '@/pages/Typography/Typography';
 import Tables from '@/pages/Tables/Tables';
-import Notifications from '@/pages/Notifications/Notifications';
 import Icons from '@/pages/Icons/Icons';
 import Maps from '@/pages/Maps/Maps';
 import Charts from '@/pages/Charts/Charts';
@@ -38,19 +36,9 @@ export default new Router({
           component: Dashboard,
         },
         {
-          path: 'typography',
-          name: 'Typography',
-          component: Typography,
-        },
-        {
           path: 'tables',
           name: 'Typography',
           component: Tables,
-        },
-        {
-          path: 'notifications',
-          name: 'Notifications',
-          component: Notifications,
         },
         {
           path: 'components/icons',
